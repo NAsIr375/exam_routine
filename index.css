@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-color: #26de81;
+}
+
+
+.heading h1,h4{
+    text-align: center;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+
+table ,th,td{
+    background-color: aliceblue;
+    border: 1.8px solid black;
+    margin: 25px;
+    padding: 15px;
+    border-collapse: collapse;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+   
+}
+th{
+    width: 30px;
+    height: 10px;
+    
+}
+td{
+    text-align: center;
+}
+tr :hover{
+    background-color:#70a1ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
